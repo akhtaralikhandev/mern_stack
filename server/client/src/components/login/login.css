@@ -1,0 +1,70 @@
+.login {
+  -webkit-box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.08);
+  height: 350px;
+  width: 30%;
+  padding: 8px;
+  margin-left: 30%;
+  color: white;
+  margin-top: 6%;
+  background-color: rgb(21 94 117);
+}
+.loginwrapper {
+  padding: 15px;
+  font-size: 20px;
+}
+.toplogin {
+  width: 87%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.logintopleft,
+.logintopright {
+  /* padding: 12px 28px; */
+  background-color: white;
+  display: flex;
+  font-size: 22px;
+  width: 88%;
+  padding: 10px;
+  justify-content: center;
+  border: none;
+}
+.logintopleft,
+.logintopright:visited {
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.loginform {
+  padding-top: 10%;
+  /* margin-top: 15px; */
+  /* background-color: blue; */
+}
+
+.inputlogin {
+  width: 80%;
+  outline: none;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+.loginsubmit {
+  margin: 10px;
+  padding: 10px;
+  width: 85%;
+  font-size: 22px;
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+#signInDiv {
+  margin-left: 13%;
+}

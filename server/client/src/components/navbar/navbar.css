@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  -webkit-box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.08);
+}
+.navbarwrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.leftnavbar {
+  flex: 1;
+}
+.centernavbar {
+  flex: 1;
+  /* display: flex; */
+}
+.navbarinputdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbarinputdivwrapper {
+  margin-top: 5%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.navbarinput {
+  /* margin: 0; */
+  padding: 15px;
+  /* padding-left: 20px; */
+  font-size: 20px;
+  outline: none;
+  border: none;
+}
+.navbarright {
+  flex: 1;
+}
+.ulnavbar {
+  display: flex;
+  list-style: none;
+  padding-top: 10px;
+  position: relative;
+  padding: 30px;
+  padding-left: 130px;
+  padding-right: 50px;
+  /* align-content: center; */
+  align-items: center;
+  /* justify-content: space-between; */
+  /* flex: 1; */
+}
+.accountCircle {
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: fill;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.navbaraccountimg {
+  object-fit: cover;
+
+  width: 120px;
+  height: 90px;
+  border-radius: 50%;
+  /* object-position: 80% 90%; */
+}
+.linavbar {
+  padding-left: 35px;
+  cursor: pointer;
+}
+.navbaraccount {
+  position: absolute;
+  right: 3%;
+}
+.leftnavbarwrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+  padding: 30px;
+  /* justify-content: space-around; */
+}
+.brandname {
+  font-style: italic;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 24px;
+  padding-right: 3px;
+  color: rgb(60, 60, 192);
+}
+.navbarhome {
+  padding-left: 10%;
+  padding-top: 1%;
+  font-size: 18px;
+  cursor: pointer;
+}

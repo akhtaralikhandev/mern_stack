@@ -1,0 +1,43 @@
+.post {
+  margin-top: 5%;
+  margin-left: 30%;
+  /* display: flex; */
+  /* background-color: lightblue; */
+  width: 40%;
+}
+.postwrapper {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+.postTextArea {
+  resize: none;
+  padding: 10px;
+  font-size: 18px;
+  margin: 2%;
+}
+.inputtitle,
+.inputtag {
+  margin: 2%;
+  padding: 8px;
+}
+.filebase64 {
+  margin-left: 2%;
+  margin-bottom: 1%;
+}
+.postsubmit {
+  margin: 1%;
+  padding: 8px;
+  margin-left: 2%;
+  cursor: pointer;
+}
+.postsubmit {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+}
+
+.postsubmit:hover {
+  background-color: #4caf50;
+  color: white;
+}

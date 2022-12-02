@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signup {
+  -webkit-box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.08);
+  height: 430px;
+  width: 40%;
+  padding: 8px;
+  margin-left: 30%;
+  color: white;
+  margin-top: 6%;
+  background-color: rgb(21 94 117);
+}
+.wrapper_signup {
+  padding: 15px;
+  font-size: 20px;
+}
+.top_signup {
+  width: 95%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.button_signup,
+.button_login {
+  /* padding: 12px 28px; */
+  background-color: white;
+  display: flex;
+  font-size: 22px;
+  width: 90%;
+  padding: 10px;
+  justify-content: center;
+}
+.button_signup,
+.button_login:visited {
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.span_signup {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.form_signup {
+  margin-top: 10px;
+  /* background-color: blue; */
+}
+.firstName,
+.lastName {
+  width: 40%;
+  outline: none;
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+.email,
+.password {
+  width: 88.5%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+  outline: none;
+}
+.button_submit {
+  margin: 10px;
+  padding: 10px;
+  width: 93%;
+  font-size: 22px;
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.link2 {
+  color: black;
+  text-decoration: none;
+}

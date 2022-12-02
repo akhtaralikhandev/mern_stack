@@ -1,0 +1,91 @@
+.postlist {
+  /* background-color: blue; */
+  width: 30%;
+  /* height: 200px; */
+  margin-left: 35%;
+  margin-top: 4%;
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.08);
+}
+.postimage {
+  width: 350px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  object-fit: cover;
+  /* border-radius: 2%; */
+}
+.toppost {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.likepost {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.likeposticon,
+.deletepost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.accountCircle {
+  position: relative;
+}
+.profileinfo {
+  position: absolute;
+  /* display: none; */
+  top: 100%;
+  background-color: lightblue;
+  padding: 20px;
+}
+.liprofileinfo {
+  padding-top: 5px;
+}
+.postComments {
+  padding-top: 30px;
+  /* width: 80%; */
+  display: flex;
+  justify-content: space-between;
+}
+.inputpostcomment {
+  padding: 8px;
+  outline: none;
+  font-size: 20px;
+}
+.submitpostcomment {
+  padding: 8px;
+  font-size: 20px;
+  margin-left: 3%;
+  cursor: pointer;
+  border: 1px solid green;
+  background-color: white;
+}
+.submitpostcomment:hover {
+  background-color: green;
+  color: white;
+}
+.commentslist {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.commentspan {
+  margin-top: 2%;
+}
+.postcreatedAt {
+  font-size: 13px;
+}
+
+.likepost {
+  border-bottom: 1px solid rgb(212, 189, 189);
+}
+.commentsection {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgb(212, 189, 189);
+}
